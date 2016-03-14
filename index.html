@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+  		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="javascript.js"></script>
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div style="margin: auto; max-width:80%;">
+
+				<h1>Comment Here:</h1>
+
+				<form id="theForm" class="form-horizontal" action="javascript:void(0);">
+					<div class="form-group">
+			  			<label for="name" class="col-sm-2 control-label">Name: </label>
+			  			<div class="col-sm-9">
+			  				<input type="text" id="name" class="form-control" placeholder="Name"><br>
+			  			</div>
+			  		</div>
+			  		<div class="form-group">
+			  			<label for="comment" class="col-sm-2 control-label">Comment: </label>
+			  			<div class="col-sm-9">
+			  				<input type="text" id="comment" class="form-control" placeholder="Comment"><br>
+			  			</div>
+			  		</div>
+				
+					<div id="buttons">
+						<input id="serialize" type="submit" class="btn btn-primary" value="Submit Comment" />
+						<button id="getComments" type="button" class="btn btn-primary">Get Comments</button>
+					</div>
+
+				</form>
+
+				<div id="lowerDiv">
+					<div id="json">JSON: </div>
+					<div id="result"></div>
+				</div>
+
+				<div id="comments"></div>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>

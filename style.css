@@ -1,0 +1,64 @@
+body {
+  padding: 10px;
+  font: 14px ,Arial;
+  text-align: center;
+ background: url('http://www.themesrefinery.net/wp-content/uploads/2014/06/light-background-design-website-9.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+
+h1 {
+	margin-bottom: 40px;
+}
+
+#theForm {
+	width: 70%;
+    margin: auto;
+}
+
+#buttons {
+	margin: auto;
+
+
+}
+.btn {
+background-color: #b2c248;
+}
+
+#lowerDiv {
+    padding: 10px;
+    margin: 20px auto;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#comments {
+  text-align: left;
+	margin: 20px auto;
+	width: 60%;
+}
+
+.singleComment {
+	background: Green;
+	padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.theComment {
+	font-weight: bold;
+	font-size: 15px;
+}
+html { 
+        background: url('http://www.themesrefinery.net/wp-content/uploads/2014/06/light-background-design-website-9.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
